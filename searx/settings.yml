@@ -2,19 +2,20 @@ general:
   # Debug mode, only for development. Is overwritten by ${SEARXNG_DEBUG}
   debug: false
   # displayed name
-  instance_name: "SearXNG"
+  instance_name: "BananoSearch"
   # For example: https://example.com/privacy
   privacypolicy_url: false
   # use true to use your own donation page written in searx/info/en/donate.md
   # use false to disable the donation link
   donation_url: false
-  # mailto:contact@example.com
-  contact_url: false
+  
+  contact_url: true
+    mailto:4rkal@horsefucker.org
   # record stats
   enable_metrics: true
 
 brand:
-  new_issue_url: https://github.com/searxng/searxng/issues/new
+  new_issue_url: https://github.com/4rkal/bananosearch/issues/new
   docs_url: https://docs.searxng.org/
   public_instances: https://searx.space
   wiki_url: https://github.com/searxng/searxng/wiki
@@ -26,7 +27,7 @@ search:
   # Existing autocomplete backends: "dbpedia", "duckduckgo", "google", "yandex",
   # "seznam", "startpage", "swisscows", "qwant", "wikipedia" - leave blank to turn it off
   # by default.
-  autocomplete: ""
+  autocomplete: "duckduckgo"
   # minimun characters to type before autocompleter starts
   autocomplete_min: 4
   # Default search language - leave blank to detect from browser information or

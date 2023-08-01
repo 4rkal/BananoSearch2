@@ -1,4 +1,4 @@
-# About SearXNG
+<!-- # About SearXNG
 
 SearXNG is a [metasearch engine], aggregating the results of other
 {{link('search engines', 'preferences')}} while not storing information about
@@ -76,4 +76,41 @@ internet is, the more freedom we have!
 [OpenSearch]: https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
 [Firefox]: https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox
 [Microsoft Edge]: https://support.microsoft.com/en-us/help/4028574/microsoft-edge-change-the-default-search-engine
-[Chromium]: https://www.chromium.org/tab-to-search
+[Chromium]: https://www.chromium.org/tab-to-search -->
+# About BananoSearch
+<body data-banad-url="http://banad.net/example">
+<h1>Banano Search is a peel of <a href="https://searxng.org">Searxng</a></h1>
+<p>
+  Searx is a <a href="https://en.wikipedia.org/wiki/Metasearch_engine">metasearch engine</a>,
+  aggregating the results of other <a href="/preferences">search engines</a>
+  while not storing information about its users.
+</p>
+<h2>What is Banano Search?</h2>
+<p>Banano Search is a open source search engine which donates all the money gathered from ads and donates them to charity among other things</p>
+<p>Here is how the earnings of Banano Search are distributed</p>
+<li>
+  70% Goes to charities -> 50% <a href="https://bananoforest.com ">bananoforest</a> 50%   <a href="https://cryptoforthehomeless.org/donate.html ">cryptoforthehomeless</a>  
+</li>
+<li>
+  10% Is burned *
+</li>
+<li>
+  15% is given back to the users in forms of airdrops <a href="/faucet">faucets</a> etc.
+</li>
+<li>
+  5% is kept for future development and hosting.
+</li>
+Send me recommendations on how to change the fund distribution<a href="https://forms.gle/sjrmQUZrSsRo4eQb6">here</a>
+<h2 id='add to browser'>How to set as the default search engine?</h2>
+<p>
+Searx supports <a href="https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md">OpenSearch</a>.
+For more information on changing your default search engine, see your browser's documentation:
+</p>
+<ul>
+<li><a href="https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox">Firefox</a></li>
+<li><a href="https://support.microsoft.com/en-us/help/4028574/microsoft-edge-change-the-default-search-engine">Microsoft Edge</a></li>
+<li>Chromium-based browsers <a href="https://www.chromium.org/tab-to-search">only add websites that the user navigates to without a path.</a>
+</ul>
+<div data-banad-id="DA1826B0" style="width: 300px; height: 180px; position: relative;"></div> 
+<script src="../../static/banad.js"></script>
+</body>

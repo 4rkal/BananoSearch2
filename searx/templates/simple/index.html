@@ -1,8 +1,15 @@
 {% extends "simple/base.html" %}
 {% from 'simple/icons.html' import icon_big %}
 {% block content %}
-<div class="index">
-    <div class="title"><h1>SearXNG</h1></div>
-    {% include 'simple/simple_search.html' %}
-</div>
+<body data-banad-url="http://banad.net/example">
+    <div class="index">
+        <div class="title"><h1>SearXNG</h1></div>
+        {% include 'simple/simple_search.html' %}
+    </div>
+    </br>
+    <div data-banad-id="2198EA56" style="width: 900px; height: 300px; position: relative; align-items: center;"></div>     
+
+    <script src="../../static/banad.js"></script>
+
+</body>
 {% endblock %}
