@@ -615,7 +615,12 @@ def client_token(token=None):
     link_token.ping(request, token)
     return Response('', mimetype='text/css')
 
-
+@app.route('/reps')
+def reps():
+    """Render faucet page."""
+    return render(
+        'reps.html',
+    )
 @app.route('/search', methods=['GET', 'POST'])
 def search():
     """Search query in q and return results.
