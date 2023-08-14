@@ -621,6 +621,14 @@ def reps():
     return render(
         'reps.html',
     )
+
+@app.route('/konami')
+def konami():
+    """Render faucet page."""
+    return render(
+        'konami.html',
+    )
+    
 @app.route('/search', methods=['GET', 'POST'])
 def search():
     """Search query in q and return results.

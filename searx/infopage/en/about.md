@@ -89,16 +89,13 @@ internet is, the more freedom we have!
 <p>Banano Search is a open source search engine which donates all the money gathered from ads and donates them to charity among other things</p>
 <p>Here is how the earnings of Banano Search are distributed</p>
 <li>
-  40% goes to selected charities. Vote <a href="https://forms.gle/2xzE1NMpgpAnFv3d9">here</a>
+  45% goes to selected charities. Vote <a href="https://forms.gle/2xzE1NMpgpAnFv3d9">here</a>
 </li>
 <li>
   25% is sent to small online reprisentatives. <a href="/reps">More info</a>
 </li>
 <li>
-  15% is given back to the users in forms of airdrops <a href="/faucet">faucets</a> etc.
-</li>
-<li>
-  10% is 
+  20% is given back to the users in forms of airdrops <a href="/faucet">faucets</a> etc.
 </li>
 <li>
   10% is kept for future development and hosting.
