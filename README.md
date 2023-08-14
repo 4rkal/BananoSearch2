@@ -7,4 +7,4 @@ Banano Search is a open source search engine which donates all the money gathere
 Banano Search utilizes banad (Banano powered ads) <a href="http://banad.net">banad.net</a>
 
 # # Updates
-BananoSearch now uses searxng instead of searx since it brings major ui improvements and usability improvements. The old bananosearch which is broken can be found in the BananoSearch repo
+BananoSearch now uses searxng instead of searx since it brings major ui improvements and usability improvements. The old bananosearch which is broken can be found in the BananoSearch repo or on <a href="https://web.archive.org/web/20221005145453/http://bananosearch.herokuapp.com/">archive.org</a>
