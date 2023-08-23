@@ -628,6 +628,13 @@ def konami():
     return render(
         'konami.html',
     )
+
+@app.route('/faucet')
+def faucet():
+    """Render faucet page."""
+    return render(
+        'faucet.html',
+    )
     
 @app.route('/search', methods=['GET', 'POST'])
 def search():
