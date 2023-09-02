@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="HandheldFriendly" content="True">
   <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-  <title>{% block title %}{% endblock %}{{ instance_name }}</title>
+  <title>BananoSearch</title>
   {% block meta %}{% endblock %}
   {% if rtl %}
   <link rel="stylesheet" href="{{ url_for('static', filename='css/searxng-rtl.min.css') }}" type="text/css" media="screen" />
@@ -71,6 +71,7 @@
   
   </main>
   <footer>
+	  <iframe data-aa='2254482' src='//ad.a-ads.com/2254482?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
     <p>
     {{ _('Powered by') }} <a href="{{ url_for('info', pagename='about') }}">searxng</a> - {{ _('a privacy-respecting, open metasearch engine') }}<br/>
         <a href="https://github.com/4rkal/BananoSearch">{{ _('Source code') }}</a>
@@ -81,7 +82,6 @@
         {% if get_setting('general.contact_url') %}
         | <a href="mailto:4rkal@horsefucker.org">{{ _('Contact instance maintainer') }}</a>
         {% endif %}
-        
     </p>
   </footer>
   <!--[if gte IE 9]>-->

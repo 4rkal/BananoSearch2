@@ -78,7 +78,7 @@ internet is, the more freedom we have!
 [Microsoft Edge]: https://support.microsoft.com/en-us/help/4028574/microsoft-edge-change-the-default-search-engine
 [Chromium]: https://www.chromium.org/tab-to-search -->
 # About BananoSearch
-<body data-banad-url="http://banad.net/example">
+<body> 
 <h1>Banano Search is a peel of <a href="https://searxng.org">Searxng</a></h1>
 <p>
   Searx is a <a href="https://en.wikipedia.org/wiki/Metasearch_engine">metasearch engine</a>,
@@ -111,6 +111,4 @@ For more information on changing your default search engine, see your browser's 
 <li><a href="https://support.microsoft.com/en-us/help/4028574/microsoft-edge-change-the-default-search-engine">Microsoft Edge</a></li>
 <li>Chromium-based browsers <a href="https://www.chromium.org/tab-to-search">only add websites that the user navigates to without a path.</a>
 </ul>
-<div data-banad-id="DA1826B0" style="width: 300px; height: 180px; position: relative;"></div> 
-<script src="../../static/banad.js"></script>
 </body>
